@@ -1,48 +1,87 @@
 ---
-title: "Security Best Practices 🔒"
-description: "Improve code health of your web page following these best practices. Prevent security vulnerabilities"
+title: "Frequently Asked Questions (FAQs) for PCOSphere"
+description: "Get all your questions answered about PCOSphere, the ultimate PCOS wellness app. Learn about its features, privacy, and community support."
 draft: false
 tags: ["Featured"]
-keywords: ["security best practices","external links","does not use https","links to cross-origin destinations are unsafe","includes front-end JavaScript libraries with known security vulnerabilities","ensure CSP is effective against XSS attacks","Content Security Policy","csp"]
+keywords: ["PCOS health app","PCOS management","symptom tracking","community support","wellness app FAQs"]
 ---
 
-# Security Best Practices
+## 💡 Welcome to PCOSphere FAQs
 
-Improve code health of your web page following these best practices.
-
-## Use HTTPS
-
-All websites should be protected with HTTPS, even ones that don't handle sensitive data. HTTPS prevents intruders from tampering with or passively listening in on the communications between your site and your users.
-
-## External Links
-
-When you link to a page on another site using the target="_blank" attribute, you can expose your site to performance and security issues:
-
-- The other page may run on the same process as your page. If the other page is running a lot of JavaScript, your page's performance may suffer.
-
-- The other page can access your window object with the window.opener property. This may allow the other page to redirect your page to a malicious URL.
-
-Adding `rel="noopener"` or `rel="noreferrer"` to your `target="_blank"` links avoids these issues.
+Have questions? We've got answers! Explore our frequently asked questions and discover how PCOSphere can support your PCOS wellness journey.
 
 ---
 
-All external links will have `target="_blank"` and `rel=“noopener nofollow”` attribute.
+## 🌍 **General**
 
-- [Salvus.Site](https://salvus.site)
+### What is PCOSphere?
 
-- [Render-link.html help need](https://discourse.gohugo.io/t/render-link-html-help-need/30006/3)
+PCOSphere is a comprehensive health and wellness app designed to help users manage PCOS symptoms through personalized insights, smart tracking, and community support.
 
-Internal link:
+### Who is PCOSphere for?
 
-- [Blog](/blog/)
+PCOSphere is for anyone seeking to better understand and manage their PCOS symptoms, including those looking for meal plans, symptom tracking, fitness recommendations, and access to a supportive community.
 
-## Checks your JavaScript libraries for security vulnerabilities
+---
 
-Intruders have automated web crawlers that can scan your site for known security vulnerabilities. When the web crawler detects a vulnerability, it alerts the intruder. From there, the intruder just needs to figure out how to exploit the vulnerability on your site.
+## 🛠️ **Features**
 
-To detect vulnerable libraries check [snyk's Vulnerability DB](https://snyk.io/vuln?packageManager=all).
+### What features does PCOSphere offer?
 
-## Configure Content Security Policy (CSP)
+✨ **Personalized Meal Plans:** Tailored recommendations to support hormonal balance.
 
-A Content Security Policy (CSP) helps to ensure any content loaded in the page is trusted by the site owner. CSPs mitigate cross-site scripting (XSS) attacks because they can block unsafe scripts injected by attackers. However, the CSP can easily be bypassed if it is not strict enough.
+📊 **Symptom & Cycle Tracking:** Gain insights with visual analytics.
 
+🌐 **Supportive Community:** Connect with experts and other users.
+
+💊 **Smart Medication Reminders:** Stay on schedule with custom alerts.
+
+🏋️ **Energy-Level Workouts:** Workouts designed for your energy levels.
+
+### Is PCOSphere free to use?
+
+Yes, the core features of PCOSphere are free. We may introduce premium features in the future.
+
+---
+
+## 🔐 **Privacy and Security**
+
+### How is my health data protected?
+
+Your privacy is our priority! PCOSphere uses encryption to securely store sensitive health information.
+
+### Can I control what data is shared?
+
+Absolutely! You can adjust your privacy settings to control which data is shared and which remains private.
+
+---
+
+## 🔧 **Technical**
+
+### Do I need an internet connection to use PCOSphere?
+
+Some features require an internet connection, such as community forums and updates. However, tracking and local features can work offline.
+
+---
+
+## 🤝 **Community**
+
+### How do I join the community?
+
+Simply create a PCOSphere account and navigate to the community section to start connecting with other users.
+
+### Are community discussions moderated?
+
+Yes, our forums are moderated to ensure a safe and respectful environment.
+
+---
+
+## 📢 **Support**
+
+### Where can I report a bug or suggest a feature?
+
+Please visit our [GitHub repository](https://github.com/nilla-moige/hugo-mock-landing-page/issues) to report issues or suggest improvements.
+
+
+---
+Thanks for choosing PCOSphere as your PCOS wellness companion! 💖

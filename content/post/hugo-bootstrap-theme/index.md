@@ -1,31 +1,34 @@
 ---
-title: "Hugo Bootstrap Theme alpha"
-description: "Hugo theme for a secure, blazing fast and SEO-ready static website, using Bootstrap 5."
+title: "PCOSphere"
+description: "A health and wellness app for managing PCOS symptoms with personalized features and community support."
 date: 2022-05-22T13:35:02+01:00
 draft: false
 images: ["site-feature-image.png"]
 categories: ["Hugo Bootstrap Theme"]
 tags: ["Hugo","Bootstrap","Featured"]
 keywords: ["hugo bootstrap theme"]
-authors: ["Filipe Carneiro"]
+authors: ["Nilla Moige"]
 aliases:
-  - hugo-bootstrap-theme-alpha
+  - pcosphere-featured
 ---
 
-> Hugo theme for a secure, blazing fast and SEO-ready static website, using Bootstrap 5.
+> PCOSphere: Empowering women with PCOS to take control of their health journey.
 
-Open-source MIT Licensed Hugo Theme, using Bootstrap 5.
+PCOSphere is a comprehensive wellness app tailored for managing PCOS symptoms through personalized insights, community support, and smart health tracking.
 
-- 🛡️ Security aware
+- 🥗 **Personalized Meal Plans**
+  Get tailored meal recommendations based on dietary preferences and hormonal balance goals.
 
-  Get A+ scores on Mozilla Observatory out of the box. Easily change the default Security Headers to suit your needs.
+- 📊 **Symptom & Cycle Tracking**
+  Gain insights into your symptoms and menstrual cycle with visual graphs and trend analytics.
 
-- ⚡ Fast by default
+- 🌐 **Supportive Community**
+  Connect with others facing similar challenges and engage in expert Q&A sessions.
 
-  Get 100 scores on Google Lighthouse by default. Hugo Bootstrap Theme removes unused css, prefetches links, and lazy loads images.
+- 💊 **Smart Medication Reminders**
+  Stay on track with adjustable medication and supplement schedules.
 
-- 📈 SEO-ready
+- 🧘 **Energy-Level Workouts**
+  Receive workout recommendations tailored to your energy levels.
 
-  Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the Search Engine Optimization settings to your liking.
-
-Check the [GitHub repository](https://github.com/filipecarneiro/hugo-bootstrap-theme) for the release notes.
+Check the [GitHub repository](https://github.com/nilla-moige/hugo-mock-landing-page) for more information.
