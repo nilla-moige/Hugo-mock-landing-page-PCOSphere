@@ -7,7 +7,6 @@ images: ["hugo-logo.png"]
 categories: ["Hugo Release Notes"]
 tags: ["PCOS", "Health", "PCOS Types"]
 keywords: ["Types of PCOS", "PCOS categories", "PCOS causes"]
-color: pink
 ---
 
 ## 🌿 Types of PCOS: Understanding the Four Categories
