@@ -86,12 +86,12 @@
   --bs-tertiary-color-rgb: 33, 37, 41;
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
-  --bs-heading-color: inherit;
-  --bs-link-color: #0d6efd;
-  --bs-link-color-rgb: 13, 110, 253;
+  --bs-heading-color: #f33e7a;
+  --bs-link-color: #f05f8f;
+  --bs-link-color-rgb: 240, 95, 143;
   --bs-link-decoration: underline;
-  --bs-link-hover-color: #0a58ca;
-  --bs-link-hover-color-rgb: 10, 88, 202;
+  --bs-link-hover-color: #c04c72;
+  --bs-link-hover-color-rgb: 192, 76, 114;
   --bs-code-color: #d63384;
   --bs-highlight-color: #212529;
   --bs-highlight-bg: #fff3cd;
@@ -2479,7 +2479,7 @@ progress {
   --bs-btn-disabled-color: #6c757d;
   --bs-btn-disabled-border-color: transparent;
   --bs-btn-box-shadow: 0 0 0 #000;
-  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-focus-shadow-rgb: 204, 81, 122;
   text-decoration: underline;
 }
 
@@ -9829,6 +9829,7 @@ a .feather-github:hover {
 
 .list .card {
   transition: transform 0.2s ease-in-out;
+  color: #f05f8f;
 }
 
 .list .card:hover {
