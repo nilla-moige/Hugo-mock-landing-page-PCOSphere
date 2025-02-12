@@ -9829,7 +9829,6 @@ a .feather-github:hover {
 
 .list .card {
   transition: transform 0.2s ease-in-out;
-  color: #f05f8f;
 }
 
 .list .card:hover {
@@ -9842,6 +9841,11 @@ a .feather-github:hover {
 
 .navbar-brand:hover {
   transform: rotate(-2deg) scale(1.1);
+}
+
+.text-primary {
+  --bs-text-opacity: 1;
+  color: #f05f8f !important;
 }
 
 /*# sourceMappingURL=style.css.map */
