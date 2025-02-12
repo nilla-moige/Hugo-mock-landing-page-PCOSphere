@@ -51,7 +51,6 @@
         &:hover {
             transform: scale(1.01);
         }
-        color:#f05f8f;
     }
 }
 
@@ -61,5 +60,9 @@
     &:hover {
         transform: rotate(-2deg) scale(1.1);
     }
+}
+.text-primary {
+    --bs-text-opacity: 1;
+    color: #f05f8f!important;
 }
 
