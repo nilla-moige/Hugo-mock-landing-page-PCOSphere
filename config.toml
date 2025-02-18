@@ -1,5 +1,5 @@
 author = "Nilla Orina"
-baseURL = 'https://nilla-moige.github.io/hugo-mock-landing-page/'
+baseURL = 'https://nilla-moige.github.io/hugo-mock-landing-page-autodeployed/'
 copyright = "Nilla Orina"
 title = "PCOSphere"
 timeZone = 'Europe/London'
