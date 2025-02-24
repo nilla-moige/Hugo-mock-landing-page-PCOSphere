@@ -7,7 +7,7 @@ This repository automates the deployment of [hugo-mock-landing-page](https://git
 
 Once deployed, the website is accessible at:  
 
-<https://nilla-moige.github.io/hugo-mock-landing-page-autodeployed/>
+[here](https://nilla-moige.github.io/hugo-mock-landing-page-autodeployed/)
 
 ## Insights from Claude( summary of the YAML workflow)
 
