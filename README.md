@@ -1,27 +1,34 @@
-# hugo-mock-landing-page
 
-A mock landing page built with Hugo
+# Hugo-mock-landing-page-autodeployed
 
-This repository contains the Hugo-mock landing page, which currently features PCOSphere, a wellness platform designed to support individuals with Polycystic Ovary Syndrome (PCOS) by providing personalized health tracking, educational resources, and lifestyle recommendations.
+This repository automates the deployment of [hugo-mock-landing-page using](https://github.com/nilla-moige/hugo-mock-landing-page) which is a hugo static website, GitHub Actions and GitHub Pages. Every time a change is pushed to the `main` branch, the site is automatically built and published.  
 
-## Features
+## Deployment URL
 
-- **PCOSPantry**: Find PCOS-friendly recipes and nutritional guidance.
-- **PCOSPulse**: Track and analyze daily wellness metrics, Log menstrual cycles, mood changes, weight fluctuations, and other symptoms.
-- **Hormone Hub**: Access hormone-related insights and management tools.
-- **FitFlow**: Workouts tailored to improve insulin sensitivity and hormonal balance.
-- **DoseMate**: Stay on track with prescribed treatments and supplements.
-- **Ovulytics**: Advanced ovulation tracking for fertility planning.
-- **Learn & Thrive**: Comprehensive educational resources, including articles, videos, and expert advice on PCOS management.
+Once deployed, the website is accessible at:  
 
-## Featured Pages
+<https://nilla-moige.github.io/hugo-mock-landing-page-autodeployed/>
 
-- **FAQs on PCOSphere**: Answers to commonly asked questions about PCOS and how PCOSphere can help.
+## Insights from Claude( summary of the YAML workflow)
 
-## License
+It automates building and deploying a Hugo website to GitHub Pages
 
-This project is licensed under the MIT License.
+**Key Components**:
+
+- Triggers on push to `main` branch
+- Runs on Ubuntu 22.04
+- Uses Hugo version 0.144.1 (extended)
+
+**Steps**:
+
+1. Checkout repo (includes themes and full git history)
+2. Set up Hugo environment
+3. Build static files with minification
+4. Deploy to `gh-pages` branch
+
+**Workflow Pattern**:
+Push to `main` → Build with Hugo → Auto-deploy to `gh-pages` → Live on GitHub Pages
 
 ## Contact
 
-For questions or feedback, reach out via [GitHub Issues](https://github.com/nilla-moige/hugo-mock-landing-page/issues).
+For questions or feedback, reach out via [GitHub Issues](https://github.com/nilla-moige/hugo-mock-landing-page-autodeployed/issues).
