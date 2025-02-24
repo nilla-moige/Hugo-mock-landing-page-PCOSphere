@@ -1,7 +1,7 @@
 
 # Hugo-mock-landing-page-autodeployed
 
-This repository automates the deployment of [hugo-mock-landing-page using](https://github.com/nilla-moige/hugo-mock-landing-page) which is a hugo static website, GitHub Actions and GitHub Pages. Every time a change is pushed to the `main` branch, the site is automatically built and published.  
+This repository automates the deployment of [hugo-mock-landing-page](https://github.com/nilla-moige/hugo-mock-landing-page) which is a hugo static website, GitHub Actions and GitHub Pages. Every time a change is pushed to the `main` branch, the site is automatically built and published.  
 
 ## Deployment URL
 
